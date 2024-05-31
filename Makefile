@@ -1,4 +1,4 @@
-all: g++ not.cpp notnot.cpp -o therm
+therm: g++ not.cpp notnot.cpp -o therm
 
 .PHONY: clean
 

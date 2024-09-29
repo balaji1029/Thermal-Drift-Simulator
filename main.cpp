@@ -1,5 +1,5 @@
-#include "not.h"
-
+#include "therm.h"
+#include <simplecpp>
 
 int main() {
     initCanvas("Thermal Conductivity Simulator", WIDTH, HEIGHT);

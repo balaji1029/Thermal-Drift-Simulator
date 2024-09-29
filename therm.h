@@ -1,5 +1,5 @@
-#ifndef NOT_H
-#define NOT_H
+#ifndef THERM_H
+#define THERM_H
 
 #include <iostream>
 

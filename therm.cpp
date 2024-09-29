@@ -1,4 +1,5 @@
-#include "not.h"
+#include "therm.h"
+#include <random>
 
 void fillarray(float array[], int n) {
     srand(time(NULL));

@@ -1,6 +1,13 @@
-therm: g++ not.cpp notnot.cpp -o therm
+all: install therm
 
-.PHONY: clean
+therm: therm.cpp main.cpp
+	s++ -O3 -std=c++20 -o therm therm.cpp main.cpp
+
+.PHONY: clean install
 
 clean:
-  rm therm
+	rm therm	
+
+install:
+	cd simplecpp && make install
+	cd ../
